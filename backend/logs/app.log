@@ -1,0 +1,48 @@
+2024-07-02 10:36:23,439 - INFO - PyTorch version 2.3.1 available.
+2024-07-02 10:36:24,170 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-02 10:36:24,938 - DEBUG - https://huggingface.co:443 "GET /api/datasets/databricks/databricks-dolly-15k HTTP/1.1" 200 1441
+2024-07-02 10:36:24,943 - DEBUG - Starting new HTTPS connection (1): s3.amazonaws.com:443
+2024-07-02 10:36:25,897 - DEBUG - https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/databricks/databricks-dolly-15k/databricks/databricks-dolly-15k.py HTTP/1.1" 404 0
+2024-07-02 10:36:26,269 - DEBUG - https://huggingface.co:443 "GET /api/datasets/databricks/databricks-dolly-15k HTTP/1.1" 200 1441
+2024-07-02 10:36:26,287 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-02 10:36:26,781 - DEBUG - https://huggingface.co:443 "HEAD /datasets/databricks/databricks-dolly-15k/resolve/bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a/README.md HTTP/1.1" 200 0
+2024-07-02 10:36:26,806 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-02 10:36:27,294 - DEBUG - https://huggingface.co:443 "HEAD /datasets/databricks/databricks-dolly-15k/resolve/bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a/.huggingface.yaml HTTP/1.1" 404 0
+2024-07-02 10:36:27,299 - DEBUG - Starting new HTTPS connection (1): datasets-server.huggingface.co:443
+2024-07-02 10:36:28,420 - DEBUG - https://datasets-server.huggingface.co:443 "GET /info?dataset=databricks/databricks-dolly-15k HTTP/1.1" 200 None
+2024-07-02 10:36:28,829 - DEBUG - https://huggingface.co:443 "GET /api/datasets/databricks/databricks-dolly-15k/revision/bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a HTTP/1.1" 200 1441
+2024-07-02 10:36:29,136 - DEBUG - https://huggingface.co:443 "GET /api/datasets/databricks/databricks-dolly-15k/tree/bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a?recursive=False&expand=False HTTP/1.1" 200 430
+2024-07-02 10:36:29,444 - DEBUG - https://huggingface.co:443 "GET /api/datasets/databricks/databricks-dolly-15k/tree/bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a/data?recursive=False&expand=False HTTP/1.1" 404 79
+2024-07-02 10:36:29,643 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-02 10:36:30,262 - DEBUG - https://huggingface.co:443 "GET /api/datasets/databricks/databricks-dolly-15k/revision/bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a HTTP/1.1" 200 1441
+2024-07-02 10:36:30,271 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-02 10:36:30,776 - DEBUG - https://huggingface.co:443 "HEAD /datasets/databricks/databricks-dolly-15k/resolve/bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a/dataset_infos.json HTTP/1.1" 404 0
+2024-07-02 10:36:30,787 - DEBUG - Attempting to acquire lock 2472342241808 on C:\Users\Sameer Sonwane\.cache\huggingface\datasets\_Users_Sameer Sonwane_.cache_huggingface_datasets_databricks___databricks-dolly-15k_default_0.0.0_bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a.lock
+2024-07-02 10:36:30,791 - DEBUG - Lock 2472342241808 acquired on C:\Users\Sameer Sonwane\.cache\huggingface\datasets\_Users_Sameer Sonwane_.cache_huggingface_datasets_databricks___databricks-dolly-15k_default_0.0.0_bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a.lock
+2024-07-02 10:36:30,796 - DEBUG - open file: C:/Users/Sameer Sonwane/.cache/huggingface/datasets/databricks___databricks-dolly-15k/default/0.0.0/bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a/dataset_info.json
+2024-07-02 10:36:30,799 - DEBUG - Attempting to release lock 2472342241808 on C:\Users\Sameer Sonwane\.cache\huggingface\datasets\_Users_Sameer Sonwane_.cache_huggingface_datasets_databricks___databricks-dolly-15k_default_0.0.0_bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a.lock
+2024-07-02 10:36:30,802 - DEBUG - Lock 2472342241808 released on C:\Users\Sameer Sonwane\.cache\huggingface\datasets\_Users_Sameer Sonwane_.cache_huggingface_datasets_databricks___databricks-dolly-15k_default_0.0.0_bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a.lock
+2024-07-02 10:36:30,937 - DEBUG - Attempting to acquire lock 2472353996240 on C:\Users\Sameer Sonwane\.cache\huggingface\datasets\databricks___databricks-dolly-15k\default\0.0.0\bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a_builder.lock
+2024-07-02 10:36:30,940 - DEBUG - Lock 2472353996240 acquired on C:\Users\Sameer Sonwane\.cache\huggingface\datasets\databricks___databricks-dolly-15k\default\0.0.0\bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a_builder.lock
+2024-07-02 10:36:30,941 - DEBUG - open file: C:/Users/Sameer Sonwane/.cache/huggingface/datasets/databricks___databricks-dolly-15k/default/0.0.0/bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a/dataset_info.json
+2024-07-02 10:36:30,943 - DEBUG - Attempting to release lock 2472353996240 on C:\Users\Sameer Sonwane\.cache\huggingface\datasets\databricks___databricks-dolly-15k\default\0.0.0\bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a_builder.lock
+2024-07-02 10:36:30,947 - DEBUG - Lock 2472353996240 released on C:\Users\Sameer Sonwane\.cache\huggingface\datasets\databricks___databricks-dolly-15k\default\0.0.0\bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a_builder.lock
+2024-07-02 10:36:34,409 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-l6-v2
+2024-07-02 10:36:34,769 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-l6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2024-07-02 10:36:35,079 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-07-02 10:36:35,383 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-l6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2024-07-02 10:36:35,690 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2024-07-02 10:36:35,998 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-l6-v2/resolve/main/README.md HTTP/1.1" 307 0
+2024-07-02 10:36:36,304 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2024-07-02 10:36:36,614 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-l6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2024-07-02 10:36:36,919 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2024-07-02 10:36:37,227 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-l6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2024-07-02 10:36:37,535 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2024-07-02 10:36:37,928 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-l6-v2/resolve/main/config.json HTTP/1.1" 307 0
+2024-07-02 10:36:38,250 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2024-07-02 10:36:39,685 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-l6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2024-07-02 10:36:39,981 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-07-02 10:36:40,395 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-l6-v2/revision/main HTTP/1.1" 307 99
+2024-07-02 10:36:40,708 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6139
+2024-07-02 10:36:41,014 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-l6-v2 HTTP/1.1" 307 85
+2024-07-02 10:36:41,323 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6139
